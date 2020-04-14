@@ -1,4 +1,4 @@
-package edu.gtu.util.Deque;
+package edu.gtu.util.deque;
 
 import java.util.AbstractCollection;
 import java.util.Collection;
