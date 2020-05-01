@@ -1,0 +1,92 @@
+ExpressionTree Class Prefix Input Test
+======================================
+
+Creating expression tree with constructor
+tree = + + 10 * 5 15 20 
+Expression tree successfully constructed
+
+-eval()
+Result : 105
+
+-toString()
+Result : + + 10 * 5 15 20 
+
+-toString2()
+Result : 10 5 15 * + 20 + 
+
+Creating new expression tree with constructor
+tree = / + + * - 3 5 3 7 11 6 
+Expression tree successfully constructed
+
+-eval()
+Result : 2
+
+-toString()
+Result : / + + * - 3 5 3 7 11 6 
+
+-toString2()
+Result : 3 5 - 3 * 7 + 11 + 6 / 
+
+Creating Scanner with "- / * + 1 3 4 2 3" expression
+
+readExpressionTree( scan )
+-eval()
+Result : 5
+
+-toString()
+Result : - / * + 1 3 4 2 3 
+
+-toString2()
+Result : 1 3 + 4 * 2 / 3 - 
+
+
+ExpressionTree Class Postfix Input Test
+======================================
+
+Creating expression tree with constructor
+tree = 10 5 15 * + 20 + 
+Expression tree successfully constructed
+
+-eval()
+Result : 105
+
+-toString()
+Result : + + 10 * 5 15 20 
+
+-toString2()
+Result : 10 5 15 * + 20 + 
+
+Creating new expression tree with constructor
+tree = 3 5 - 3 * 7 + 11 + 6 / 
+Expression tree successfully constructed
+
+-eval()
+Result : 2
+
+-toString()
+Result : / + + * - 3 5 3 7 11 6 
+
+-toString2()
+Result : 3 5 - 3 * 7 + 11 + 6 / 
+
+Creating Scanner with "1 3 + 4 * 2 / 3 -" expression
+
+readExpressionTree( scan )
+-eval()
+Result : 5
+
+-toString()
+Result : - / * + 1 3 4 2 3 
+
+-toString2()
+Result : 1 3 + 4 * 2 / 3 - 
+
+
+ExpressionTree Invalid Input Testing
+====================================
+
+Attempt to build tree with invalid input
+tree = - + - g t u 4 6 
+Invalid expression : - + - g t u 4 6
+
+Process finished with exit code 1
