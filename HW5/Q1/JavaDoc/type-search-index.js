@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"edu.gtu.FileSystem","l":"FileSystemTree.FileNode"},{"p":"edu.gtu.FileSystem","l":"FileSystemTree"},{"p":"<Unnamed>","l":"Main"}]

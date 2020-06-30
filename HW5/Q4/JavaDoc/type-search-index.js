@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"edu.gtu.AgeData","l":"AgeData"},{"p":"edu.gtu.AgeData","l":"AgeDataInterface"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Main"},{"p":"edu.gtu.AgeData","l":"MaxHeap"},{"p":"edu.gtu.Heap","l":"MaxHeapInterface"},{"p":"edu.gtu.Heap","l":"MaxHeapUtil"},{"p":"edu.gtu.AgeData","l":"NumberOfPeopleComparator"}]

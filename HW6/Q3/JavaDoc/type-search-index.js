@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"Library","l":"Administrator"},{"p":"Library","l":"AdministratorFunctions"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"Library","l":"AutomationSystem"},{"p":"Library","l":"Book"},{"p":"Library","l":"SystemStorage"},{"p":"<Unnamed>","l":"Test"},{"p":"Library","l":"User"},{"p":"Library","l":"UserFunctions"}]

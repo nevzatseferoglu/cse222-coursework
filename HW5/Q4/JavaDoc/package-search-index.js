@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"edu.gtu.AgeData"},{"l":"edu.gtu.Heap"}]

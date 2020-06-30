@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"edu.gtu.textEditor","l":"AbstractSimpleTextEditor"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Main"},{"p":"edu.gtu.textEditor","l":"SimpleTextEditorArrayList"},{"p":"edu.gtu.textEditor","l":"SimpleTextEditorLinkedList"},{"p":"<Unnamed>","l":"Main.Test"}]
