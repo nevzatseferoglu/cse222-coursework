@@ -1,0 +1,366 @@
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 3
+------All-Software------
+[----------------
+Name : Adobe Photoshop 6.0
+Quantity : 5
+Price : 20.75 TL
+
+, ----------------
+Name : Adobe Photoshop 6.2
+Quantity : 4
+Price : 15.35 TL
+
+, ----------------
+Name : Norton 4.5
+Quantity : 6
+Price : 15.6 TL
+
+, ----------------
+Name : Norton 5.5
+Quantity : 7
+Price : 20.1 TL
+
+, ----------------
+Name : Adobe Flash 3.3
+Quantity : 4
+Price : 13.5 TL
+
+]
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 2
+Enter the name of the software (included version) : Norton 5.5
+----------------
+Name : Norton 5.5
+Quantity : 7
+Price : 20.1 TL
+
+
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 1
+--------------------------------
+Enter the password : gtu
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 1
+
+Enter software name (not include version) : Microsoft 2007
+Enter software version : 1.0
+Enter the quantity of the software : 5
+Enter the price of the software : 25
+
+
+*New software added to store-system
+
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 4
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 3
+------All-Software------
+[----------------
+Name : Adobe Photoshop 6.0
+Quantity : 5
+Price : 20.75 TL
+
+, ----------------
+Name : Adobe Photoshop 6.2
+Quantity : 4
+Price : 15.35 TL
+
+, ----------------
+Name : Norton 4.5
+Quantity : 6
+Price : 15.6 TL
+
+, ----------------
+Name : Norton 5.5
+Quantity : 7
+Price : 20.1 TL
+
+, ----------------
+Name : Adobe Flash 3.3
+Quantity : 4
+Price : 13.5 TL
+
+, ----------------
+Name : Microsoft 2007 1.0
+Quantity : 5
+Price : 25.0 TL
+
+]
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 1
+--------------------------------
+Enter the password : gtu
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 2
+Enter software name (not include version) : Adobe Flash
+Enter software version : 3.3
+
+*Software is removed entirely.
+
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 4
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 3
+------All-Software------
+[----------------
+Name : Adobe Photoshop 6.0
+Quantity : 5
+Price : 20.75 TL
+
+, ----------------
+Name : Adobe Photoshop 6.2
+Quantity : 4
+Price : 15.35 TL
+
+, ----------------
+Name : Norton 4.5
+Quantity : 6
+Price : 15.6 TL
+
+, ----------------
+Name : Norton 5.5
+Quantity : 7
+Price : 20.1 TL
+
+, ----------------
+Name : Microsoft 2007 1.0
+Quantity : 5
+Price : 25.0 TL
+
+]
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 1
+--------------------------------
+Enter the password : gtu
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 3
+
+Enter software name (not include version) : Norton
+Enter software version : 5.5
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 1
+Enter new name : NortonGTU
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 2
+Enter new version code : 10.0
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 4
+Enter the new quantity of the software : 10
+Quantity has been updated.
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 3
+An item which matches selected product has been sold.
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 5
+Enter new price as Turkish-Lira: 50
+
+Price has been updated.
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 6
+Quiting...
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 4
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 3
+------All-Software------
+[----------------
+Name : Adobe Photoshop 6.0
+Quantity : 5
+Price : 20.75 TL
+
+, ----------------
+Name : Adobe Photoshop 6.2
+Quantity : 4
+Price : 15.35 TL
+
+, ----------------
+Name : Norton 4.5
+Quantity : 6
+Price : 15.6 TL
+
+, ----------------
+Name : NortonGTU 10.0
+Quantity : 18
+Price : 50.0 TL
+
+, ----------------
+Name : Microsoft 2007 1.0
+Quantity : 5
+Price : 25.0 TL
+
+]
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 1
+--------------------------------
+Enter the password : gtu
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 3
+
+Enter software name (not include version) : Norton
+Enter software version : 4.5
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 3
+An item which matches selected product has been sold.
+(1) Edit name
+(2) Edit version code
+(3) Sell that product ( only 1 element ) 
+(4) Edit quantity
+(5) Edit price
+(6) Quit
+Choice : 6
+Quiting...
+(1) Add Software
+(2) Delete Software
+(3) Update book
+(4) Quit
+Choice : 4
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 3
+------All-Software------
+[----------------
+Name : Adobe Photoshop 6.0
+Quantity : 5
+Price : 20.75 TL
+
+, ----------------
+Name : Adobe Photoshop 6.2
+Quantity : 4
+Price : 15.35 TL
+
+, ----------------
+Name : NortonGTU 10.0
+Quantity : 18
+Price : 50.0 TL
+
+, ----------------
+Name : Microsoft 2007 1.0
+Quantity : 5
+Price : 25.0 TL
+
+, ----------------
+Name : Norton 4.5
+Quantity : 5
+Price : 15.6 TL
+
+]
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 1
+--------------------------------
+Enter the password : WRONG
+**Invalid password !
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 2
+Enter the name of the software (included version) : GTU
+There is no software with matched given name.
+--------------------------------
+(1) Login as administrator
+(2) Search software by name
+(3) List all the software
+(4) Quit
+Choice : 4
+**Quiting...

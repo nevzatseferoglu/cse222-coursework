@@ -1,0 +1,468 @@
+====Regular BinarySearchTree-Test======
+
+BinarySearchTree 1. 10K insertion: 11 ms.
+BinarySearchTree 2. 10K insertion: 3 ms.
+BinarySearchTree 3. 10K insertion: 2 ms.
+BinarySearchTree 4. 10K insertion: 2 ms.
+BinarySearchTree 5. 10K insertion: 2 ms.
+BinarySearchTree 6. 10K insertion: 2 ms.
+BinarySearchTree 7. 10K insertion: 3 ms.
+BinarySearchTree 8. 10K insertion: 3 ms.
+BinarySearchTree 9. 10K insertion: 3 ms.
+BinarySearchTree 10. 10K insertion: 3 ms.
+
+BinarySearchTree 1. 20K insertion: 7 ms.
+BinarySearchTree 2. 20K insertion: 6 ms.
+BinarySearchTree 3. 20K insertion: 6 ms.
+BinarySearchTree 4. 20K insertion: 7 ms.
+BinarySearchTree 5. 20K insertion: 6 ms.
+BinarySearchTree 6. 20K insertion: 6 ms.
+BinarySearchTree 7. 20K insertion: 7 ms.
+BinarySearchTree 8. 20K insertion: 7 ms.
+BinarySearchTree 9. 20K insertion: 7 ms.
+BinarySearchTree 10. 20K insertion: 41 ms.
+
+BinarySearchTree 1. 40K insertion: 27 ms.
+BinarySearchTree 2. 40K insertion: 23 ms.
+BinarySearchTree 3. 40K insertion: 28 ms.
+BinarySearchTree 4. 40K insertion: 17 ms.
+BinarySearchTree 5. 40K insertion: 17 ms.
+BinarySearchTree 6. 40K insertion: 35 ms.
+BinarySearchTree 7. 40K insertion: 15 ms.
+BinarySearchTree 8. 40K insertion: 17 ms.
+BinarySearchTree 9. 40K insertion: 17 ms.
+BinarySearchTree 10. 40K insertion: 41 ms.
+
+BinarySearchTree 1. 80K insertion: 61 ms.
+BinarySearchTree 2. 80K insertion: 127 ms.
+BinarySearchTree 3. 80K insertion: 36 ms.
+BinarySearchTree 4. 80K insertion: 33 ms.
+BinarySearchTree 5. 80K insertion: 29 ms.
+BinarySearchTree 6. 80K insertion: 32 ms.
+BinarySearchTree 7. 80K insertion: 32 ms.
+BinarySearchTree 8. 80K insertion: 33 ms.
+BinarySearchTree 9. 80K insertion: 35 ms.
+BinarySearchTree 10. 80K insertion: 28 ms.
+
+
+Built-Validation Test
+Built Tree : 1 2 5 6 7 8 9 10 11 12 14 16 18 19 20 21 22 24 25 26 27 29 34 35 38 39 40 41 43 45 46 47 49 
+
+10 extra random non-existing number insertion for 10K insertion : 48000 ns.
+10 extra random non-existing number insertion for 20K insertion : 186000 ns.
+10 extra random non-existing number insertion for 40K insertion : 66000 ns.
+10 extra random non-existing number insertion for 80K insertion : 67000 ns.
+
+10 random existing number deletion from 10K size: 652 ms.
+10 random existing number deletion from 20K size: 408 ms.
+10 random existing number deletion from 40K size: 219 ms.
+10 random existing number deletion from 80K size: 142 ms.
+
+====Regular BinarySearchTree-Test-End======
+====RedBlackTree-Test======
+
+RedBlackTree 1. 10K insertion: 9 ms.
+RedBlackTree 2. 10K insertion: 7 ms.
+RedBlackTree 3. 10K insertion: 9 ms.
+RedBlackTree 4. 10K insertion: 7 ms.
+RedBlackTree 5. 10K insertion: 4 ms.
+RedBlackTree 6. 10K insertion: 3 ms.
+RedBlackTree 7. 10K insertion: 3 ms.
+RedBlackTree 8. 10K insertion: 4 ms.
+RedBlackTree 9. 10K insertion: 4 ms.
+RedBlackTree 10. 10K insertion: 4 ms.
+
+RedBlackTree 1. 20K insertion: 9 ms.
+RedBlackTree 2. 20K insertion: 9 ms.
+RedBlackTree 3. 20K insertion: 9 ms.
+RedBlackTree 4. 20K insertion: 9 ms.
+RedBlackTree 5. 20K insertion: 8 ms.
+RedBlackTree 6. 20K insertion: 7 ms.
+RedBlackTree 7. 20K insertion: 7 ms.
+RedBlackTree 8. 20K insertion: 8 ms.
+RedBlackTree 9. 20K insertion: 5 ms.
+RedBlackTree 10. 20K insertion: 6 ms.
+
+RedBlackTree 1. 40K insertion: 14 ms.
+RedBlackTree 2. 40K insertion: 30 ms.
+RedBlackTree 3. 40K insertion: 13 ms.
+RedBlackTree 4. 40K insertion: 13 ms.
+RedBlackTree 5. 40K insertion: 12 ms.
+RedBlackTree 6. 40K insertion: 13 ms.
+RedBlackTree 7. 40K insertion: 13 ms.
+RedBlackTree 8. 40K insertion: 16 ms.
+RedBlackTree 9. 40K insertion: 15 ms.
+RedBlackTree 10. 40K insertion: 22 ms.
+
+RedBlackTree 1. 80K insertion: 61 ms.
+RedBlackTree 2. 80K insertion: 43 ms.
+RedBlackTree 3. 80K insertion: 66 ms.
+RedBlackTree 4. 80K insertion: 37 ms.
+RedBlackTree 5. 80K insertion: 33 ms.
+RedBlackTree 6. 80K insertion: 38 ms.
+RedBlackTree 7. 80K insertion: 35 ms.
+RedBlackTree 8. 80K insertion: 41 ms.
+RedBlackTree 9. 80K insertion: 44 ms.
+RedBlackTree 10. 80K insertion: 30 ms.
+
+
+Built-Validation Test
+Built Tree : Red : 0 Black: 2 Red : 4 Black: 6 Black: 7 Red : 9 Black: 10 Black: 11 Black: 13 Black: 15 Red : 16 Black: 17 Black: 19 Red : 21 Black: 22 Black: 24 Red : 27 Red : 28 Black: 29 Red : 30 Black: 31 Red : 32 Black: 33 Red : 34 Black: 35 Red : 40 Black: 41 Red : 42 Black: 43 Black: 45 Red : 46 Black: 47 Red : 48 
+
+10 extra random non-existing number insertion for 10K insertion : 44000 ns.
+10 extra random non-existing number insertion for 20K insertion : 25000 ns.
+10 extra random non-existing number insertion for 40K insertion : 33000 ns.
+10 extra random non-existing number insertion for 80K insertion : 28000 ns.
+
+10 random existing number deletion from 10K size: 463 ms.
+10 random existing number deletion from 20K size: 416 ms.
+10 random existing number deletion from 40K size: 220 ms.
+10 random existing number deletion from 80K size: 121 ms.
+
+====RedBlackTree-Test-End======
+====RedBlackTreeJava-Test======
+
+RedBlackTreeJava 1. 10K insertion: 9 ms.
+RedBlackTreeJava 2. 10K insertion: 7 ms.
+RedBlackTreeJava 3. 10K insertion: 7 ms.
+RedBlackTreeJava 4. 10K insertion: 7 ms.
+RedBlackTreeJava 5. 10K insertion: 7 ms.
+RedBlackTreeJava 6. 10K insertion: 7 ms.
+RedBlackTreeJava 7. 10K insertion: 7 ms.
+RedBlackTreeJava 8. 10K insertion: 5 ms.
+RedBlackTreeJava 9. 10K insertion: 15 ms.
+RedBlackTreeJava 10. 10K insertion: 19 ms.
+
+RedBlackTreeJava 1. 20K insertion: 34 ms.
+RedBlackTreeJava 2. 20K insertion: 21 ms.
+RedBlackTreeJava 3. 20K insertion: 11 ms.
+RedBlackTreeJava 4. 20K insertion: 9 ms.
+RedBlackTreeJava 5. 20K insertion: 9 ms.
+RedBlackTreeJava 6. 20K insertion: 8 ms.
+RedBlackTreeJava 7. 20K insertion: 8 ms.
+RedBlackTreeJava 8. 20K insertion: 8 ms.
+RedBlackTreeJava 9. 20K insertion: 8 ms.
+RedBlackTreeJava 10. 20K insertion: 9 ms.
+
+RedBlackTreeJava 1. 40K insertion: 14 ms.
+RedBlackTreeJava 2. 40K insertion: 12 ms.
+RedBlackTreeJava 3. 40K insertion: 12 ms.
+RedBlackTreeJava 4. 40K insertion: 10 ms.
+RedBlackTreeJava 5. 40K insertion: 10 ms.
+RedBlackTreeJava 6. 40K insertion: 12 ms.
+RedBlackTreeJava 7. 40K insertion: 18 ms.
+RedBlackTreeJava 8. 40K insertion: 42 ms.
+RedBlackTreeJava 9. 40K insertion: 14 ms.
+RedBlackTreeJava 10. 40K insertion: 10 ms.
+
+RedBlackTreeJava 1. 80K insertion: 23 ms.
+RedBlackTreeJava 2. 80K insertion: 26 ms.
+RedBlackTreeJava 3. 80K insertion: 29 ms.
+RedBlackTreeJava 4. 80K insertion: 27 ms.
+RedBlackTreeJava 5. 80K insertion: 31 ms.
+RedBlackTreeJava 6. 80K insertion: 25 ms.
+RedBlackTreeJava 7. 80K insertion: 25 ms.
+RedBlackTreeJava 8. 80K insertion: 24 ms.
+RedBlackTreeJava 9. 80K insertion: 20 ms.
+RedBlackTreeJava 10. 80K insertion: 19 ms.
+
+
+Built-Validation Test
+Built Tree : [1, 2, 3, 5, 6, 7, 10, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 31, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45]
+
+10 extra random non-existing number insertion for 10K insertion : 52000 ns.
+10 extra random non-existing number insertion for 20K insertion : 28000 ns.
+10 extra random non-existing number insertion for 40K insertion : 25000 ns.
+10 extra random non-existing number insertion for 80K insertion : 23000 ns.
+
+10 random existing number deletion from 10K size: 774 ms.
+10 random existing number deletion from 20K size: 192 ms.
+10 random existing number deletion from 40K size: 225 ms.
+10 random existing number deletion from 80K size: 252 ms.
+
+====RedBlackTreeJava-Test-End======
+====BTree-Test======
+
+BTree 1. 10K insertion: 8 ms.
+BTree 2. 10K insertion: 7 ms.
+BTree 3. 10K insertion: 7 ms.
+BTree 4. 10K insertion: 7 ms.
+BTree 5. 10K insertion: 7 ms.
+BTree 6. 10K insertion: 7 ms.
+BTree 7. 10K insertion: 7 ms.
+BTree 8. 10K insertion: 7 ms.
+BTree 9. 10K insertion: 8 ms.
+BTree 10. 10K insertion: 7 ms.
+
+BTree 1. 20K insertion: 17 ms.
+BTree 2. 20K insertion: 18 ms.
+BTree 3. 20K insertion: 17 ms.
+BTree 4. 20K insertion: 16 ms.
+BTree 5. 20K insertion: 18 ms.
+BTree 6. 20K insertion: 19 ms.
+BTree 7. 20K insertion: 20 ms.
+BTree 8. 20K insertion: 17 ms.
+BTree 9. 20K insertion: 14 ms.
+BTree 10. 20K insertion: 14 ms.
+
+BTree 1. 40K insertion: 34 ms.
+BTree 2. 40K insertion: 28 ms.
+BTree 3. 40K insertion: 27 ms.
+BTree 4. 40K insertion: 26 ms.
+BTree 5. 40K insertion: 26 ms.
+BTree 6. 40K insertion: 31 ms.
+BTree 7. 40K insertion: 23 ms.
+BTree 8. 40K insertion: 23 ms.
+BTree 9. 40K insertion: 20 ms.
+BTree 10. 40K insertion: 20 ms.
+
+BTree 1. 80K insertion: 44 ms.
+BTree 2. 80K insertion: 44 ms.
+BTree 3. 80K insertion: 50 ms.
+BTree 4. 80K insertion: 43 ms.
+BTree 5. 80K insertion: 47 ms.
+BTree 6. 80K insertion: 35 ms.
+BTree 7. 80K insertion: 35 ms.
+BTree 8. 80K insertion: 34 ms.
+BTree 9. 80K insertion: 40 ms.
+BTree 10. 80K insertion: 38 ms.
+
+
+Built-Validation Test
+Built Tree : [2, 5, 6, 7, 8, 10, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 26, 27, 32, 33, 34, 35, 36, 40, 41, 42, 43, 44, 45, 48]
+
+
+
+
+
+
+
+
+
+
+
+10 extra random non-existing number insertion for 10K insertion : 45000 ns.
+10 extra random non-existing number insertion for 20K insertion : 38000 ns.
+10 extra random non-existing number insertion for 40K insertion : 41000 ns.
+10 extra random non-existing number insertion for 80K insertion : 32000 ns.
+
+
+BTree-Test-End
+====SkipListBook-Test======
+
+SkipListBook 1. 10K insertion: 10 ms.
+SkipListBook 2. 10K insertion: 7 ms.
+SkipListBook 3. 10K insertion: 7 ms.
+SkipListBook 4. 10K insertion: 7 ms.
+SkipListBook 5. 10K insertion: 7 ms.
+SkipListBook 6. 10K insertion: 7 ms.
+SkipListBook 7. 10K insertion: 7 ms.
+SkipListBook 8. 10K insertion: 7 ms.
+SkipListBook 9. 10K insertion: 8 ms.
+SkipListBook 10. 10K insertion: 8 ms.
+
+SkipListBook 1. 20K insertion: 17 ms.
+SkipListBook 2. 20K insertion: 17 ms.
+SkipListBook 3. 20K insertion: 18 ms.
+SkipListBook 4. 20K insertion: 19 ms.
+SkipListBook 5. 20K insertion: 21 ms.
+SkipListBook 6. 20K insertion: 21 ms.
+SkipListBook 7. 20K insertion: 21 ms.
+SkipListBook 8. 20K insertion: 18 ms.
+SkipListBook 9. 20K insertion: 13 ms.
+SkipListBook 10. 20K insertion: 11 ms.
+
+SkipListBook 1. 40K insertion: 38 ms.
+SkipListBook 2. 40K insertion: 23 ms.
+SkipListBook 3. 40K insertion: 23 ms.
+SkipListBook 4. 40K insertion: 26 ms.
+SkipListBook 5. 40K insertion: 24 ms.
+SkipListBook 6. 40K insertion: 33 ms.
+SkipListBook 7. 40K insertion: 22 ms.
+SkipListBook 8. 40K insertion: 21 ms.
+SkipListBook 9. 40K insertion: 19 ms.
+SkipListBook 10. 40K insertion: 18 ms.
+
+SkipListBook 1. 80K insertion: 56 ms.
+SkipListBook 2. 80K insertion: 92 ms.
+SkipListBook 3. 80K insertion: 75 ms.
+SkipListBook 4. 80K insertion: 64 ms.
+SkipListBook 5. 80K insertion: 51 ms.
+SkipListBook 6. 80K insertion: 55 ms.
+SkipListBook 7. 80K insertion: 53 ms.
+SkipListBook 8. 80K insertion: 50 ms.
+SkipListBook 9. 80K insertion: 49 ms.
+SkipListBook 10. 80K insertion: 55 ms.
+
+
+Built-Validation Test
+Built Skip-List : 
+Data = 0
+Level Size : 1
+
+Data = 1
+Level Size : 1
+
+Data = 2
+Level Size : 2
+
+Data = 3
+Level Size : 1
+
+Data = 4
+Level Size : 4
+
+Data = 5
+Level Size : 2
+
+Data = 8
+Level Size : 3
+
+Data = 9
+Level Size : 1
+
+Data = 10
+Level Size : 2
+
+Data = 13
+Level Size : 2
+
+Data = 15
+Level Size : 2
+
+Data = 16
+Level Size : 2
+
+Data = 18
+Level Size : 1
+
+Data = 19
+Level Size : 1
+
+Data = 20
+Level Size : 2
+
+Data = 23
+Level Size : 1
+
+Data = 24
+Level Size : 1
+
+Data = 26
+Level Size : 1
+
+Data = 27
+Level Size : 1
+
+Data = 28
+Level Size : 1
+
+Data = 30
+Level Size : 2
+
+Data = 31
+Level Size : 2
+
+Data = 34
+Level Size : 1
+
+Data = 36
+Level Size : 2
+
+Data = 39
+Level Size : 1
+
+Data = 41
+Level Size : 2
+
+Data = 44
+Level Size : 1
+
+Data = 45
+Level Size : 1
+
+Data = 47
+Level Size : 1
+
+Data = 48
+Level Size : 1
+
+Data = 49
+Level Size : 1
+
+
+
+10 extra random non-existing number insertion for 10K insertion : 44000 ns.
+10 extra random non-existing number insertion for 20K insertion : 26000 ns.
+10 extra random non-existing number insertion for 40K insertion : 25000 ns.
+10 extra random non-existing number insertion for 80K insertion : 39000 ns.
+
+10 random existing number deletion from 10K size: 749 ms.
+10 random existing number deletion from 20K size: 704 ms.
+10 random existing number deletion from 40K size: 232 ms.
+10 random existing number deletion from 80K size: 361 ms.
+
+====SkipList-Test-End======
+====SkipListJava-Test======
+
+SkipListJava 1. 10K insertion: 24 ms.
+SkipListJava 2. 10K insertion: 18 ms.
+SkipListJava 3. 10K insertion: 17 ms.
+SkipListJava 4. 10K insertion: 38 ms.
+SkipListJava 5. 10K insertion: 40 ms.
+SkipListJava 6. 10K insertion: 31 ms.
+SkipListJava 7. 10K insertion: 16 ms.
+SkipListJava 8. 10K insertion: 19 ms.
+SkipListJava 9. 10K insertion: 17 ms.
+SkipListJava 10. 10K insertion: 20 ms.
+
+SkipListJava 1. 20K insertion: 35 ms.
+SkipListJava 2. 20K insertion: 11 ms.
+SkipListJava 3. 20K insertion: 14 ms.
+SkipListJava 4. 20K insertion: 11 ms.
+SkipListJava 5. 20K insertion: 10 ms.
+SkipListJava 6. 20K insertion: 10 ms.
+SkipListJava 7. 20K insertion: 10 ms.
+SkipListJava 8. 20K insertion: 9 ms.
+SkipListJava 9. 20K insertion: 6 ms.
+SkipListJava 10. 20K insertion: 6 ms.
+
+SkipListJava 1. 40K insertion: 30 ms.
+SkipListJava 2. 40K insertion: 27 ms.
+SkipListJava 3. 40K insertion: 20 ms.
+SkipListJava 4. 40K insertion: 21 ms.
+SkipListJava 5. 40K insertion: 18 ms.
+SkipListJava 6. 40K insertion: 18 ms.
+SkipListJava 7. 40K insertion: 21 ms.
+SkipListJava 8. 40K insertion: 19 ms.
+SkipListJava 9. 40K insertion: 18 ms.
+SkipListJava 10. 40K insertion: 20 ms.
+
+SkipListJava 1. 80K insertion: 45 ms.
+SkipListJava 2. 80K insertion: 52 ms.
+SkipListJava 3. 80K insertion: 52 ms.
+SkipListJava 4. 80K insertion: 49 ms.
+SkipListJava 5. 80K insertion: 44 ms.
+SkipListJava 6. 80K insertion: 38 ms.
+SkipListJava 7. 80K insertion: 38 ms.
+SkipListJava 8. 80K insertion: 34 ms.
+SkipListJava 9. 80K insertion: 34 ms.
+SkipListJava 10. 80K insertion: 34 ms.
+
+
+Built-Validation Test
+Built Tree : [0, 1, 2, 3, 4, 6, 7, 10, 13, 14, 16, 18, 19, 23, 24, 25, 26, 27, 28, 29, 31, 32, 34, 35, 36, 40, 42, 44, 45, 46, 48]
+
+10 extra random non-existing number insertion for 10K insertion : 68000 ns.
+10 extra random non-existing number insertion for 20K insertion : 48000 ns.
+10 extra random non-existing number insertion for 40K insertion : 42000 ns.
+10 extra random non-existing number insertion for 80K insertion : 49000 ns.
+
+10 random existing number deletion from 10K size: 1119 ms.
+10 random existing number deletion from 20K size: 712 ms.
+10 random existing number deletion from 40K size: 191 ms.
+10 random existing number deletion from 80K size: 223 ms.
+
+====SkipListJava-Test-End======
+
+Process finished with exit code 0
